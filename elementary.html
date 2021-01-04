@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="MY PERSONAL PHOTO ALBUM" content="width=device-width, initial-scale=1.0">
+	<title>MY PERSONAL PHOTO ALBUM</title>
+<style type="text/css">
+*{
+	box-sizing: border-box;
+}
+.row::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+[class*="col-"]{
+	float: left;
+	padding: 5px;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+html{
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+	text-align: center;
+	background-color: brown;
+	color: white;
+	font-family: Verdana;
+	padding: 20px;
+	border: 5px solid gray;
+}
+h2{
+	text-align: center;
+	font-size: 12px;
+	color: green;
+	padding: 10px;
+	font-family: Verdana;
+	margin-left: 160px;
+	margin-right:160px;
+	border: 5px solid gray;
+	background-color: brown;
+}
+a{
+	text-decoration:none;
+	color: white;
+	padding: 5px 20px;
+	transition: 0.6s ease;
+}
+.img{
+	margin-left: 12%;
+}
+.img2{
+	margin-left: 12%;
+}
+</style>
+</head>
+<body>
+		<h1>ELEMENTARY DAYS</h1>
+		<h2>
+		<a href="index2.php">HOME</a> |
+		<a href ="elementary.html" style ="color:yellow"> ELEMENTARY DAYS</a> |
+		<a href ="hoami3.html"> HIGH SCHOOL DAYS</a> |
+		<a href ="hoami4.html"> SENIOR HIGH SCHOOL DAYS</a> |
+		<a href ="hoami5.html"> COLLEGE DAYS</a></h2>
+	
+		<div class ="img">
+		<img src="elem1.jpg" width="327" height="300">
+		<img src="elem2.jpg" width="350" height="300">
+		<img src="elem3.jpg" width="327" height="300">
+		</div>
+		<div class="img2">
+		<img src="elem4.jpg" width="327" height="300">
+		<img src="elem5.jpg" width="350" height="300">
+		<img src="elem6.jpg" width="327" height="300">
+		</div>
+</body>
+</html>
